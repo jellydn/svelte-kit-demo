@@ -28,7 +28,7 @@ yarn install
 yarn dev
 ```
 
-## Deployment to Firebase
+## Deploy to Firebase
 
 ```sh
 yarn build
@@ -36,10 +36,10 @@ yarn adapt
 yarn deploy
 ```
 
-## Deployment to Vercel
+## Deploy to Vercel
 
 ```sh
-yarn build
+# you need to have `vercel` install globally
 # need to change output folder on vercel deployment to `/build`
 vercel
 ```
