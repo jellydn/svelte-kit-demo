@@ -1,0 +1,32 @@
+name: Build and Deploy
+on:
+  push:
+    branches:
+      - main
+      - master
+
+jobs:
+  build:
+    name: Build and Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Checkout Repo"
+        uses: actions/checkout@master
+      
+      - name: "Install pnpm"
+        uses: pnpm/action-setup@v1.2.1
+        with:
+          version: 5.x
+      - name: "Install Dependencies"
+        run: "pnpm install"
+      
+      # Is that the right description of what's happening?
+      - name: "Build the SvelteKit Manifest"
+        run: "pnpm run build"
+      - name: "Generate a Static Site"
+        run: "pnpm run adapt"
+      - name: "Deploy Firebase Hosting"
+        run: "pnpm run deploy -- --message '$COMMIT_MESSAGE'"
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+          COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
