@@ -308,12 +308,10 @@
   resolved "https://registry.yarnpkg.com/@sveltejs/adapter-vercel/-/adapter-vercel-1.0.0-next.0.tgz#5a82c4eab9df72e851b23161ace0f64beaa8cabf"
   integrity sha512-dQf40/2vrgRfuQ++tIAlvEgjdGUkXJTSjO5syqJd5oH2HDbP3Shi+2AxWpKAqRFGyRbXDe9ej0MK1G2soZP4fQ==
 
-"@sveltejs/app-utils@1.0.0-next.0":
-  version "1.0.0-next.0"
-  resolved "https://registry.yarnpkg.com/@sveltejs/app-utils/-/app-utils-1.0.0-next.0.tgz#da1c857632c32304e82b3fbb224eee642012c922"
-  integrity sha512-4fCuD+aLrq/iFVJWosIv8oi43tv4o7bGZVyNHMBamdIaVTcydRaPjxQCTM8OQPRVftHyrTIIvT3uH03kAxHZ0Q==
-  dependencies:
-    mime "^2.4.6"
+"@sveltejs/app-utils@1.0.0-next.3":
+  version "1.0.0-next.3"
+  resolved "https://registry.yarnpkg.com/@sveltejs/app-utils/-/app-utils-1.0.0-next.3.tgz#24f719e60724d35d6bc5b7b534cc21c3149d8492"
+  integrity sha512-KMvyA1yEx/VKBFpQH0Tbr0rXE/QcsKgIo/qwT+9Dx6mMjTykA+tulv4mD9AhjJk89jIK1XkzN2pdZcM9fbx6xg==
 
 "@sveltejs/kit@next":
   version "1.0.0-next.34"
@@ -4244,11 +4242,6 @@ mime@1.6.0:
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/mime/-/mime-1.6.0.tgz"
   integrity sha512-x0Vn8spI+wuJ1O6S7gnbaQg8Pxh4NNHb7KSINmEWKiPE4RKOplvijn+NkmYmmRgP68mc70j2EbeTFRsrswaQeg==
-
-mime@^2.4.6:
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/mime/-/mime-2.5.0.tgz"
-  integrity sha512-ft3WayFSFUVBuJj7BMLKAQcSlItKtfjsKDDsii3rqFDAZ7t11zRe8ASw/GlmivGwVUYtwkQrxiGGpL6gFvB0ag==
 
 mimic-fn@^1.0.0:
   version "1.2.0"
