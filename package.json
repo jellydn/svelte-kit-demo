@@ -33,7 +33,7 @@
     "eslint-config-prettier": "7.2.0",
     "eslint-plugin-import": "2.22.1",
     "eslint-plugin-svelte3": "3.1.0",
-    "firebase-tools": "9.4.0",
+    "firebase-tools": "9.10.2",
     "graphql": "15.5.0",
     "graphql-helix": "1.2.3",
     "husky": "5.0.9",
