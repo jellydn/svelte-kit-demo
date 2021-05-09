@@ -46,7 +46,7 @@
     "prettier": "2.2.1",
     "prettier-plugin-svelte": "2.1.5",
     "rimraf": "3.0.2",
-    "sass": "1.32.7",
+    "sass": "1.32.12",
     "snowpack": "3.0.11",
     "svelte": "3.32.3",
     "svelte-preprocess": "4.6.9",
