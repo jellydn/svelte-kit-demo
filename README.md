@@ -8,7 +8,7 @@
 
 ## 🏠 [Homepage](https://svelte-kit-test.web.app/)
 
-### ✨ [Demo](https://svelte-kit-test.dunghd.vercel.app/)
+### ✨ [Demo](https://svelte-kit-test.vercel.app/)
 
 ## Build with
 
