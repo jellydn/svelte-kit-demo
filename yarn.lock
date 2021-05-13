@@ -91,6 +91,24 @@
     estree-walker "^2.0.1"
     picomatch "^2.2.2"
 
+"@sveltejs/adapter-vercel@next":
+  version "1.0.0-next.17"
+  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-vercel/-/adapter-vercel-1.0.0-next.17.tgz#5a4d7a0744a10f9b043b6bf0645d207786f05457"
+  integrity sha512-35Z4R9V4+katvCZz37+E3pjcacQq8goIqwuClIVnnSK7+OUd6LoGb/cFoHm7OdvoSLUKaXSZ9/bLF/hwpmfJhQ==
+  dependencies:
+    "@sveltejs/kit" "1.0.0-next.104"
+    esbuild "^0.11.18"
+
+"@sveltejs/kit@1.0.0-next.104":
+  version "1.0.0-next.104"
+  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.0.0-next.104.tgz#a80ebb9f28aea77184b90e10e11c4f26e3a74c2e"
+  integrity sha512-1ww5NvpGYJdKXR4bfxo04AM4izcJwTziFIVrImq3jqS2b4d8l3KfrJOqgv+e07RvW/WakrCRPAyZzeHpXLdkZg==
+  dependencies:
+    "@sveltejs/vite-plugin-svelte" "^1.0.0-next.9"
+    cheap-watch "^1.0.3"
+    sade "^1.7.4"
+    vite "^2.2.4"
+
 "@sveltejs/kit@next":
   version "1.0.0-next.107"
   resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.0.0-next.107.tgz#346810ec6b826d57bbf371b3f0f7d5de59e8d411"
@@ -101,7 +119,7 @@
     sade "^1.7.4"
     vite "^2.3.1"
 
-"@sveltejs/vite-plugin-svelte@^1.0.0-next.10":
+"@sveltejs/vite-plugin-svelte@^1.0.0-next.10", "@sveltejs/vite-plugin-svelte@^1.0.0-next.9":
   version "1.0.0-next.10"
   resolved "https://registry.yarnpkg.com/@sveltejs/vite-plugin-svelte/-/vite-plugin-svelte-1.0.0-next.10.tgz#15526067ea2edd334420b1e14602e29b370be25e"
   integrity sha512-ImvxbhPePm2hWNTKBSA3LHAYGwiEjHjvvgfPLXm4R87sfZ+BMXql9jBmDpzUC/URBLT4BB3Jxos/i523qkJBHg==
@@ -568,7 +586,7 @@ enquirer@^2.3.5:
   dependencies:
     ansi-colors "^4.1.1"
 
-esbuild@^0.11.20:
+esbuild@^0.11.18, esbuild@^0.11.20:
   version "0.11.20"
   resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.11.20.tgz#7cefa1aee8b372c184e42457885f7ce5d3e62a1e"
   integrity sha512-QOZrVpN/Yz74xfat0H6euSgn3RnwLevY1mJTEXneukz1ln9qB+ieaerRMzSeETpz/UJWsBMzRVR/andBht5WKw==
@@ -1292,10 +1310,10 @@ prettier-plugin-svelte@^2.2.0:
   resolved "https://registry.yarnpkg.com/prettier-plugin-svelte/-/prettier-plugin-svelte-2.3.0.tgz#9956a39d18b217557ab8766c264d8cd003983608"
   integrity sha512-HTzXvSq7lWFuLsSaxYOUkGkVNCl3RrSjDCOgQjkBX5FQGmWjL8o3IFACSGhjPMMfWKADpapAr0zdbBWkND9mqw==
 
-prettier@~2.2.1:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.2.1.tgz#795a1a78dd52f073da0cd42b21f9c91381923ff5"
-  integrity sha512-PqyhM2yCjg/oKkFPtTGUojv7gnZAoG80ttl45O6x2Ug/rMJw4wcc9k6aaf2hibP7BGVCCM33gZoGjyvt9mm16Q==
+prettier@~2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.3.0.tgz#b6a5bf1284026ae640f17f7ff5658a7567fc0d18"
+  integrity sha512-kXtO4s0Lz/DW/IJ9QdWhAf7/NmPWQXkFr/r/WkR3vyI+0v8amTDxiaQSLzs8NBlytfLWX/7uQUMIW677yLKl4w==
 
 pretty-hrtime@^1.0.3:
   version "1.0.3"
@@ -1648,7 +1666,7 @@ v8-compile-cache@^2.0.3:
   resolved "https://registry.yarnpkg.com/v8-compile-cache/-/v8-compile-cache-2.3.0.tgz#2de19618c66dc247dcfb6f99338035d8245a2cee"
   integrity sha512-l8lCEmLcLYZh4nbunNZvQCJc5pv7+RCwa8q/LdUx8u7lsWvPDKmpodJAJNwkAhJC//dFY48KuIEmjtd4RViDrA==
 
-vite@^2.3.1:
+vite@^2.2.4, vite@^2.3.1:
   version "2.3.2"
   resolved "https://registry.yarnpkg.com/vite/-/vite-2.3.2.tgz#cfac76b04d4dee1c7303b55f563b5b62d32f41fe"
   integrity sha512-QhLdOompDrfkyryCNTts9HE+eJhvhN9ibKNJ5Q8DpQai+6nOsuIlaveZNg67e1O/2QaWqXeBo82eHnAs1De2bQ==
