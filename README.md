@@ -6,7 +6,7 @@
 
 > Simple setup with Svelte-kit with tailwind,graphql and deployment to Vercel/Firebase
 
-### 🏠 [Homepage](https://svelte-kit-test.web.app/)
+## 🏠 [Homepage](https://svelte-kit-test.web.app/)
 
 ### ✨ [Demo](https://svelte-kit-test.dunghd.vercel.app/)
 

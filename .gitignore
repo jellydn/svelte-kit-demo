@@ -7,3 +7,5 @@ node_modules
 .firebase
 .firebaserc
 .husky
+
+.svelte-kit

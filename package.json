@@ -1,67 +1,34 @@
 {
-  "name": "svelte-kit-test",
+  "name": "~TODO~",
   "version": "0.0.1",
   "scripts": {
     "dev": "svelte-kit dev",
     "build": "svelte-kit build",
-    "vercel-build": "svelte-kit build && svelte-kit adapt",
-    "start": "svelte-kit start",
-    "firebase": "firebase",
-    "cp:404": "ncp build/404/index.html build/404.html",
-    "rm:404": "rimraf - build/404",
-    "svelte:adapt": "svelte-kit adapt",
-    "adapt": "run-s svelte:adapt cp:404 rm:404",
-    "deploy": "firebase deploy"
+    "preview": "svelte-kit preview",
+    "lint": "prettier --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
+    "format": "prettier --write --plugin-search-dir=. ."
   },
   "devDependencies": {
-    "@snowpack/plugin-build-script": "2.1.0",
-    "@snowpack/plugin-svelte": "3.5.2",
-    "@snowpack/plugin-typescript": "1.2.1",
-    "@sveltejs/adapter-netlify": "1.0.0-next.0",
-    "@sveltejs/adapter-node": "next",
-    "@sveltejs/adapter-static": "1.0.0-next.0",
-    "@sveltejs/adapter-vercel": "1.0.0-next.0",
-    "@sveltejs/app-utils": "1.0.0-next.0",
     "@sveltejs/kit": "next",
-    "@sveltejs/snowpack-config": "next",
-    "@typescript-eslint/eslint-plugin": "4.15.1",
-    "@typescript-eslint/parser": "4.15.1",
-    "autoprefixer": "10.2.4",
-    "cssnano": "4.1.10",
-    "eslint": "7.20.0",
-    "eslint-config-airbnb-base": "14.2.1",
-    "eslint-config-prettier": "7.2.0",
-    "eslint-plugin-import": "2.22.1",
-    "eslint-plugin-svelte3": "3.1.0",
-    "firebase-tools": "9.4.0",
-    "graphql": "15.5.0",
-    "graphql-helix": "1.2.3",
-    "husky": "5.0.9",
-    "lint-staged": "10.5.4",
-    "ncp": "2.0.0",
-    "npm-run-all": "4.1.5",
-    "postcss": "8.2.6",
-    "postcss-cli": "8.3.1",
-    "postcss-load-config": "3.0.1",
-    "prettier": "2.2.1",
-    "prettier-plugin-svelte": "2.1.5",
-    "rimraf": "3.0.2",
-    "sass": "1.32.7",
-    "snowpack": "3.0.11",
-    "svelte": "3.32.3",
-    "svelte-preprocess": "4.6.9",
-    "tailwindcss": "2.0.3",
-    "tslib": "2.1.0",
-    "typescript": "4.1.5"
+    "@typescript-eslint/eslint-plugin": "^4.19.0",
+    "@typescript-eslint/parser": "^4.19.0",
+    "autoprefixer": "^10.2.5",
+    "eslint": "^7.22.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-svelte3": "^3.2.0",
+    "postcss": "^8.2.15",
+    "prettier": "~2.2.1",
+    "prettier-plugin-svelte": "^2.2.0",
+    "svelte": "^3.34.0",
+    "svelte-preprocess": "^4.0.0",
+    "tailwindcss": "^2.1.2",
+    "tslib": "^2.0.0",
+    "typescript": "^4.0.0"
   },
   "type": "module",
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.{js,css,md}": "prettier --write",
-    "*.js": "eslint --cache --fix"
+  "dependencies": {
+    "@fontsource/fira-mono": "^4.2.2",
+    "@lukeed/uuid": "^2.0.0",
+    "cookie": "^0.4.1"
   }
 }
