@@ -9,3 +9,4 @@ node_modules
 .husky
 
 .svelte-kit
+.vercel_build_output
