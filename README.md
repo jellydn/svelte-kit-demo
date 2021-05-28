@@ -30,17 +30,29 @@ yarn dev
 
 ## Deploy to Firebase
 
+Change adapter to `static` on `svelte.config.js` file.
+
+```ts
+import adapter from '@sveltejs/adapter-static';
+```
+
 ```sh
 yarn build
-yarn adapt
 yarn deploy
 ```
 
 ## Deploy to Vercel
 
+Change adapter to `vercel` on `svelte.config.js` file.
+
+```ts
+import adapter from '@sveltejs/adapter-vercel';
+```
+
 ```sh
 # you need to have `vercel` install globally
 # need to change output folder on vercel deployment to `/build`
+yarn build
 vercel
 ```
 
