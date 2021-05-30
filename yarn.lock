@@ -56,10 +56,10 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@fontsource/fira-mono@4.4.0":
-  version "4.4.0"
-  resolved "https://registry.yarnpkg.com/@fontsource/fira-mono/-/fira-mono-4.4.0.tgz#2c976d4ae086478a311cea31a783c271372e99ce"
-  integrity sha512-JXpXNEMdUZpaMtKiakqnylfPvFqYHf7pKMLM4Nc4UUqZubDmYp5tBcio5GTyIQvoLpztd5hJ6T7wGXp1Y7KKfQ==
+"@fontsource/fira-mono@4.4.1":
+  version "4.4.1"
+  resolved "https://registry.yarnpkg.com/@fontsource/fira-mono/-/fira-mono-4.4.1.tgz#98b66e77cbe87149f196d89b690326ffe7af95cf"
+  integrity sha512-S8ya71WvL8fKQoz98sw+MesPm8cjodFSPpHaB9NKCOSfhr2HdJaKbxiivFpMzkqOZWouz+aZKfpjgV6Nj+mGhA==
 
 "@fullhuman/postcss-purgecss@^3.1.3":
   version "3.1.3"
