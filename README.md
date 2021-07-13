@@ -64,6 +64,10 @@ vercel
 - Twitter: [@jellydn](https://twitter.com/jellydn)
 - Github: [@jellydn](https://github.com/jellydn)
 
+## Stargazers
+
+[![Stargazers repo roster for @jellydn/svelte-kit-demo](https://reporoster.com/stars/jellydn/svelte-kit-demo)](https://github.com/jellydn/svelte-kit-demo/stargazers)
+
 ## Show your support
 
 Give a ⭐️ if this project helped you!
