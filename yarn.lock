@@ -2307,10 +2307,10 @@ finalhandler@1.1.2, finalhandler@~1.1.2:
     statuses "~1.5.0"
     unpipe "~1.0.0"
 
-firebase-tools@9.16.0:
-  version "9.16.0"
-  resolved "https://registry.yarnpkg.com/firebase-tools/-/firebase-tools-9.16.0.tgz#e6a1f5bf5efeb8fd940612815bb3b28810fe63bc"
-  integrity sha512-H/zyDDrQuZKM6ZFyI8t2kDEC+/Ewhk771sM8NLZyEXIQnX5qKAwhi3sJUB+5yrXt+SJQYqUYksBLK6/gqxe9Eg==
+firebase-tools@9.16.5:
+  version "9.16.5"
+  resolved "https://registry.yarnpkg.com/firebase-tools/-/firebase-tools-9.16.5.tgz#c6d38bded228fd2a5dfd781a42287c78dab66b86"
+  integrity sha512-dp/cvt+39wv5CO+MzX36snmRnvn5j7Nn73QfKiIvHXAT5Ek/fRJn2pWnaxP+bhd19SuEY1Buf8PcdlMl42hzlw==
   dependencies:
     "@google-cloud/pubsub" "^2.7.0"
     "@types/archiver" "^5.1.0"
