@@ -6,6 +6,8 @@
 
 > Simple setup with Svelte-kit with tailwind,graphql and deployment to Vercel/Firebase
 
+[![Svelte Kit - NextJs for Svelte](https://img.youtube.com/vi/p5RJdCk09SM/0.jpg)](https://www.youtube.com/watch?v=p5RJdCk09SM)
+
 ## 🏠 [Homepage](https://svelte-kit-test.web.app/)
 
 ### ✨ [Demo](https://svelte-kit-test.vercel.app/)
