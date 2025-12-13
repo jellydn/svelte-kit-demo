@@ -20,7 +20,7 @@
     "@typescript-eslint/eslint-plugin": "5.62.0",
     "@typescript-eslint/parser": "5.62.0",
     "autoprefixer": "10.4.22",
-    "eslint": "8.57.1",
+    "eslint": "9.39.2",
     "eslint-config-prettier": "8.10.2",
     "eslint-plugin-svelte3": "4.0.0",
     "postcss": "8.5.6",
